@@ -1,0 +1,9 @@
+body{
+    background-image: url('https://portalwp.s3.amazonaws.com/wp-content/uploads/20181218181437/Fotolia_187896963_Subscription_Monthly_M.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#buttonMain{
+    margin-top: 400px;
+}
