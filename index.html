@@ -12,7 +12,7 @@
 
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand text-light" href="#">Frases</a>
+          <a class="navbar-brand text-light" href="#">Conselhos Sábios</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -36,9 +36,9 @@
       
 
       <!-- Button trigger modal -->
-      <div class="" style="height: 100vh;">
+      <div class="">
         <button id="buttonMain" onclick="buscaFraseAleatoria()" type="button" class="btn btn-lg btn-dark d-grid col-4 mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            Clique para ver a frase do dia
+            Clique para ver o conselho de hoje
         </button>
     </div>
   
@@ -47,15 +47,15 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="staticBackdropLabel">Frase do dia</h1>
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Pra você</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body" id="frase">
           Carregando
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">fechar</button>
-          <button type="button" class="btn btn-dark" onclick="buscaFraseAleatoria()">outra frase</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">voltar</button>
+          <button type="button" class="btn btn-dark" onclick="buscaFraseAleatoria()">ver outro</button>
         </div>
       </div>
     </div>
